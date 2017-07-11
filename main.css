@@ -220,3 +220,20 @@ have a fixed width and height (but it's not required).
 
 	}
 }
+
+
+
+.social-icons { padding: 16px 0; }
+	.social-icons a { background: url(../images/icons/social-icons.png) no-repeat; height: 16px; display: inline-block; -webkit-touch-callout: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; margin-left: 13px; }
+		.social-icons a.twitter { background-position: 0 0; width: 19px; }
+		.social-icons a.twitter:hover { background-position: 0px -21px; }
+		.social-icons a.facebook { background-position: -23px 0; width: 16px; }
+		.social-icons a.facebook:hover { background-position: -23px -21px; }
+		.social-icons a.linkedin { background-position: -43px 0; width: 18px; }
+		.social-icons a.linkedin:hover { background-position: -43px -21px; }
+		.social-icons a.vimeo { background-position: -66px 0; width: 18px; }
+		.social-icons a.vimeo:hover { background-position: -66px -21px; }
+		.social-icons a.youtube { background-position: -86px 0; width: 16px; }
+		.social-icons a.youtube:hover { background-position: -86px -21px; }
+		.social-icons a.skype { background-position: -107px 0; width: 16px; }
+		.social-icons a.skype:hover { background-position: -107px -21px; }
