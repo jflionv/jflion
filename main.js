@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+	$('#boton').click(function(){
+    	console.log("hola");
+    	$( "#cubo" ).animate({ "left": "+=300px" }, 2000);
+    	$("#barra").animate({width: 300},2000,function(){alert("termino")});
+    })
 	
     $('.jcarousel').jcarousel({
 	    animation: {
@@ -184,5 +189,8 @@ $(document).ready(function () {
         railVisible: true,
     	alwaysVisible: true
     });*/
+
+    /***********************************************************/
+
 });
 //<img src="img/check.png" width="20px" height="20px" style="position: absolute; top: 0; left: 0; z-index: 2" >
